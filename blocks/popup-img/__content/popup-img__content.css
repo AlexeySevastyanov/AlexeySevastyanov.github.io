@@ -1,0 +1,20 @@
+.popup-img__content {
+  max-width: fit-content;
+  max-height: fit-content;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.popup-img__img {
+  object-fit: contain;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+@media screen and (max-width: 540px) {
+  .popup-img__content {
+    width: calc(100% - 60px);
+  }
+}

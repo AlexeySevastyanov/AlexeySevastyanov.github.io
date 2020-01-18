@@ -1,0 +1,11 @@
+.place-card__count {
+    position: absolute;
+    width: 18px;
+    height: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 22px;
+}

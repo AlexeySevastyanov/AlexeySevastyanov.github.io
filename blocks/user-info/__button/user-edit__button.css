@@ -1,0 +1,32 @@
+.user-edit__button {
+  position: relative;
+  top: 28px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.user-edit__button:hover{
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 3px;
+  transition: color .5s ease;
+  -webkit-transition: background-color .5s ease;
+  -ms-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+.user-edit__button:active{
+  background-color: blue;
+  -webkit-transition: background-color 0s ease;
+  -ms-transition: background-color 0s ease;
+  transition: background-color 0s ease;
+}
+@media screen and (max-width: 980px) {
+  .user-edit__button {
+    position: static;
+    margin-bottom: 40px;
+  }
+}
